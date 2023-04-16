@@ -12,7 +12,7 @@
     --main-color-section: #434455;
     --portf-btn-color: #e7e9fc;
     --icon-color: #8e8f99;   
-    --icon-color-footer:  #4D5AE5; 
+    --icon-color-footer: #4d5ae5; 
 }
 
 h1,
@@ -363,6 +363,10 @@ p {
     color: #404bbf; 
 }
 
+.logo-icon {
+    fill: currentColor;
+}
+
 
 
 
@@ -502,7 +506,7 @@ color: #FFFFFF;
     width: 40px;
     height: 40px;
 
-    background-color: var(--icon-color-footer);
+    background-color:var(--icon-color-footer);
     border-radius: 50%;
 }
 
