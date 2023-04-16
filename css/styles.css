@@ -141,7 +141,6 @@ p {
     padding-top: 188px;
     padding-bottom: 188px;
 
-   /* background-color: #2e2f42;*/
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
@@ -272,6 +271,10 @@ p {
 
 }
 
+.img-team {
+    padding: 32px 0;
+}
+
 .team-name {
     padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
@@ -298,9 +301,6 @@ p {
     margin-bottom: 8px;
 }
 
-.social-icon-container {
-    padding: 32px 0;
-}
 
 .social-list{
     justify-content: center;
