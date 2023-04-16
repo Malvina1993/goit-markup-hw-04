@@ -11,7 +11,8 @@
     --title-color-section: #2e2f42;
     --main-color-section: #434455;
     --portf-btn-color: #e7e9fc;
-    --icon-color: #8e8f99;    
+    --icon-color: #8e8f99;   
+    --icon-color-footer:  #4D5AE5; 
 }
 
 h1,
@@ -314,7 +315,7 @@ p {
     width: 40px;
     height: 40px;
 
-    background-color: #4D5AE5;
+    background-color: var(--icon-color-footer);
     border-radius: 50%;
 }
 
@@ -484,4 +485,20 @@ color: #FFFFFF;
 .social-list-footer {
     justify-content: center;
     gap: 16px;   
+}
+
+.social-link-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+
+    background-color: var(--icon-color-footer);
+    border-radius: 50%;
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+    background-color: #31d0aa;;
 }
