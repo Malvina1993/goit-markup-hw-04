@@ -141,8 +141,9 @@ p {
 .hero-bgr {
     padding-top: 188px;
     padding-bottom: 188px;
+    margin: 0 auto;
 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -403,7 +404,6 @@ p {
     width: calc((100% - 48px) / 3);
 
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 
 .li-portf:hover,
@@ -446,13 +446,16 @@ p {
 
 /*---------------------------------------------------------*/
 /*FOOTER*/
+.footer-box {
+    padding: 100px 0;
+    background-color: var(--footer-color-br)  
+}
 
 .footer-body {
     display: flex;
     align-items: baseline;
     gap: 120px;
-    padding: 100px 0;
-    background-color: var(--footer-color-br)
+    
 }
 
 .footer-content {
