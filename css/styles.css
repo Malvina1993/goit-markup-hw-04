@@ -448,7 +448,7 @@ p {
 /*FOOTER*/
 .footer-box {
     padding: 100px 0;
-    background-color: var(--footer-color-br)  
+    background-color: var(--footer-color-br); 
 }
 
 .footer-body {
@@ -470,7 +470,7 @@ p {
 
 .footer-logo {
     margin-bottom: 16px;
-    color:var(--footer-color-logo);
+    color: var(--footer-color-logo);
 }
 
 .pargr-footer {
